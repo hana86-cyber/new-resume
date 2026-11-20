@@ -1,0 +1,27 @@
+/*
+ * فونت گنجنامه (Ganjname)
+ * این فونت رایگان و آزاد است ولی CDN عمومی و پایداری برایش پیدا نشد،
+ * برای همین فایل‌های آن داخل این پکیج قرار داده نشده‌اند.
+ *
+ * برای فعال‌سازی این گزینه:
+ * ۱) فایل‌های فونت (woff2 / woff / ttf) را از این آدرس دانلود کنید:
+ *    https://github.com/font-store/GanjnamehFont
+ * ۲) آن‌ها را در همین پوشه (asset/css/font/) کنار این فایل قرار دهید،
+ *    مثلاً با نام‌های: GanjNameh.woff2, GanjNameh.woff, GanjNameh.ttf
+ * ۳) آدرس‌های src زیر را با مسیر واقعی فایل‌ها جایگزین کنید.
+ *
+ * تا وقتی این فایل‌ها اضافه نشوند، این گزینه به فونت پیش‌فرض مرورگر
+ * (Tahoma / sans-serif) سقوط می‌کند و خطایی ایجاد نمی‌شود.
+ */
+@font-face {
+    font-family: 'ganjname';
+    src: local('Tahoma');
+    /* نمونه بعد از افزودن فایل واقعی:
+    src: url('GanjNameh.woff2') format('woff2'),
+         url('GanjNameh.woff')  format('woff'),
+         url('GanjNameh.ttf')   format('truetype');
+    */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

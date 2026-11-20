@@ -1,0 +1,22 @@
+/*
+ * فونت پرستو (Parastoo) - فونت فارسی رایگان و متن‌باز
+ * منبع: https://github.com/rastikerdar/parastoo-font (نسخه v2.0.1 - مجوز OFL)
+ */
+@font-face {
+    font-family: 'parastoo';
+    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/parastoo-font@v2.0.1/dist/Parastoo.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/parastoo-font@v2.0.1/dist/Parastoo.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/parastoo-font@v2.0.1/dist/Parastoo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'parastoo';
+    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/parastoo-font@v2.0.1/dist/Parastoo-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/parastoo-font@v2.0.1/dist/Parastoo-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/parastoo-font@v2.0.1/dist/Parastoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

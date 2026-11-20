@@ -1,0 +1,33 @@
+/*
+ * فونت صمیم (Samim) - فونت فارسی رایگان و متن‌باز
+ * منبع: https://github.com/rastikerdar/samim-font (نسخه v4.0.5 - مجوز SIL OFL 1.1)
+ * نام font-family عمداً برابر با کلید انتخابی در تنظیمات قالب (samim) گذاشته شده
+ * تا متغیر CSS ‪--body-font‬ / ‪--headings-font‬ مستقیماً قابل استفاده باشد.
+ */
+@font-face {
+    font-family: 'samim';
+    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'samim';
+    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim-Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim-Medium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'samim';
+    src: url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v4.0.5/dist/Samim-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
